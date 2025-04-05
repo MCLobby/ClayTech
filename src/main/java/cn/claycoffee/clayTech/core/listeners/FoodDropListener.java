@@ -22,7 +22,7 @@ public class FoodDropListener implements Listener {
                         ClayTechItems.CLAY_LEMON, new ItemStack(Material.SHEARS), 10, e);
                 try {
                     // 这里放其他事件
-                    FoodUtil.destroy(e.getPlayer(), e.getBlock(), Material.GRASS,
+                    FoodUtil.destroy(e.getPlayer(), e.getBlock(), Material.SHORT_GRASS,
                             ClayTechItems.DIRTY_TEA, new ItemStack(Material.SHEARS), 10, e);
                     FoodUtil.destroy(e.getPlayer(), e.getBlock(), Material.WHEAT,
                             ClayTechItems.FLOUR, new ItemStack(Material.SHEARS), 15, 20, e);
@@ -30,7 +30,7 @@ public class FoodDropListener implements Listener {
                             ClayTechItems.STARCH, new ItemStack(Material.SHEARS), 15, 20, e);
                     FoodUtil.destroy(e.getPlayer(), e.getBlock(), Material.POTATOES,
                             ClayTechItems.CLAY_SWEET_POTATO, new ItemStack(Material.SHEARS), 25, 30, e);
-                    FoodUtil.destroy(e.getPlayer(), e.getBlock(), Material.GRASS,
+                    FoodUtil.destroy(e.getPlayer(), e.getBlock(), Material.SHORT_GRASS,
                             ClayTechItems.GREEN_GRASS, new ItemStack(Material.SHEARS), 31, 40, e);
                 } catch (NullPointerException ignored) {
                 }

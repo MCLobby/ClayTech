@@ -75,7 +75,7 @@ public class EffectItems {
                                     player.sendMessage(Lang.readGeneralText("TNT_EXPLOSION_CREATER_WAIT"));
                                     ClayTechData.LastUseTNTCreaterTime.put(player.getUniqueId(), System.currentTimeMillis());
                                     Bukkit.getScheduler().runTaskLater(ClayTech.getInstance(), () -> {
-                                        player.getWorld().spawnEntity(currentLoc, EntityType.PRIMED_TNT);
+                                        player.getWorld().spawnEntity(currentLoc, EntityType.TNT);
                                     }, 100);
                                 })
                                 .build())

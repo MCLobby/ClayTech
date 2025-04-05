@@ -18,7 +18,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
-                <version>3.2.4</version>
+                <version>3.6.0</version>
                 <executions>
                     <execution>
                         <phase>package</phase>
@@ -41,7 +41,8 @@
     </build>
 
     <properties>
-        <java.version>20</java.version>
+        <ClayAPI-systemPath>C:\Users\11877\Documents\GitHub\ClayTech/lib/ClayAPI-1.0.4.jar</ClayAPI-systemPath>
+        <java.version>21</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -76,13 +77,13 @@
         <dependency>
             <groupId>io.papermc.paper</groupId>
             <artifactId>paper-api</artifactId>
-            <version>1.20.1-R0.1-SNAPSHOT</version>
+            <version>1.21.1-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>com.github.SlimefunGuguProject</groupId>
             <artifactId>Slimefun4</artifactId>
-            <version>2024.3</version>
+            <version>2024.3.1</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
@@ -102,7 +103,7 @@
             <artifactId>ClayAPI</artifactId>
             <version>1.0.4</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/lib/ClayAPI-1.0.4.jar</systemPath>
+            <systemPath>${ClayAPI-systemPath}</systemPath>
         </dependency>
     </dependencies>
 </project>

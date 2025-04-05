@@ -24,16 +24,16 @@ public class FoodEatListener implements Listener {
                 try {
                     // 这里放其他食物/饮料8!!
                     FoodUtil.drink(p, e.getItem(), ClayTechItems.LEMON_POWDER_DRINK, 6,
-                            new PotionEffect[]{new PotionEffect(PotionEffectType.CONFUSION, 200, 3)});
+                            new PotionEffect[]{new PotionEffect(PotionEffectType.NAUSEA, 200, 3)});
                     FoodUtil.drink(p, e.getItem(), ClayTechItems.TEA_DRINK, 6,
-                            new PotionEffect[]{new PotionEffect(PotionEffectType.DAMAGE_RESISTANCE, 600, 2)});
+                            new PotionEffect[]{new PotionEffect(PotionEffectType.RESISTANCE, 600, 2)});
                     FoodUtil.drink(p, e.getItem(), ClayTechItems.LEMON_TEA_DRINK, 12,
-                            new PotionEffect[]{new PotionEffect(PotionEffectType.DAMAGE_RESISTANCE, 1200, 2)});
+                            new PotionEffect[]{new PotionEffect(PotionEffectType.RESISTANCE, 1200, 2)});
                     FoodUtil.food(p, e.getItem(), ClayTechItems.CHICKEN_FOOT, 8);
                     FoodUtil.food(p, e.getItem(), ClayTechItems.RAW_BREAD, 4);
                     FoodUtil.food(p, e.getItem(), ClayTechItems.RAW_VEGETABLE, 1);
                     FoodUtil.food(p, e.getItem(), ClayTechItems.CLAY_LEMON, 1,
-                            new PotionEffect[]{new PotionEffect(PotionEffectType.CONFUSION, 200, 3)});
+                            new PotionEffect[]{new PotionEffect(PotionEffectType.NAUSEA, 200, 3)});
                     FoodUtil.food(p, e.getItem(), ClayTechItems.SPICY_CHICKEN_BURGER, 15,
                             new PotionEffect[]{new PotionEffect(PotionEffectType.getById(5), 400, 1)});
                     FoodUtil.food(p, e.getItem(), ClayTechItems.BABA_BURGER, -15,
@@ -41,9 +41,9 @@ public class FoodEatListener implements Listener {
                     FoodUtil.food(p, e.getItem(), ClayTechItems.SNAIL_BAD, -20,
                             new PotionEffect[]{new PotionEffect(PotionEffectType.POISON, 8000, 9)});
                     FoodUtil.food(p, e.getItem(), ClayTechItems.CHOCOLATE, 15,
-                            new PotionEffect[]{new PotionEffect(PotionEffectType.DAMAGE_RESISTANCE, 600, 2)});
+                            new PotionEffect[]{new PotionEffect(PotionEffectType.RESISTANCE, 600, 2)});
                     FoodUtil.food(p, e.getItem(), ClayTechItems.SNAIL_FOOD, 12,
-                            new PotionEffect[]{new PotionEffect(PotionEffectType.DAMAGE_RESISTANCE, 600, 2)});
+                            new PotionEffect[]{new PotionEffect(PotionEffectType.RESISTANCE, 600, 2)});
                     FoodUtil.food(p, e.getItem(), ClayTechItems.HONEY_SWEET, 8);
                     FoodUtil.food(p, e.getItem(), ClayTechItems.COOKED_SWEET_POTATO, 6);
                     FoodUtil.food(p, e.getItem(), ClayTechItems.TUNA_FISH, 6);

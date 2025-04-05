@@ -171,7 +171,7 @@ public class ClayTechItems {
     public static final SlimefunItemStack COPPER_ORE = getSlimefunItemStack(Material.GOLD_BLOCK, Lang.readItemText("COPPER_ORE"), Lang.readItemLore("COPPER_ORE"), "COPPER_ORE");
     public static final SlimefunItemStack CLAY_FUSION_ORE = getSlimefunItemStack(Material.IRON_BLOCK, Lang.readItemText("CLAY_FUSION_ORE"), Lang.readItemLore("CLAY_FUSION_ORE"), "CLAY_FUSION_ORE");
     public static final SlimefunItemStack TUNA_FISH = getSlimefunItemStack(Material.TROPICAL_FISH, Lang.readItemText("TUNA_FISH"), Lang.readItemLore("TUNA_FISH"), "TUNA_FISH");
-    public static final SlimefunItemStack GREEN_GRASS = getSlimefunItemStack(Material.GRASS, Lang.readItemText("GREEN_GRASS"), Lang.readItemLore("GREEN_GRASS"), "GREEN_GRASS");
+    public static final SlimefunItemStack GREEN_GRASS = getSlimefunItemStack(Material.SHORT_GRASS, Lang.readItemText("GREEN_GRASS"), Lang.readItemLore("GREEN_GRASS"), "GREEN_GRASS");
     public static final SlimefunItemStack INK_MODULE = getSlimefunItemStack(Material.INK_SAC, Lang.readItemText("INK_MODULE"), Lang.readItemLore("INK_MODULE"), "INK_MODULE");
     public static final SlimefunItemStack COPYING_MODULE = getSlimefunItemStack(Material.DIAMOND, Lang.readItemText("COPYING_MODULE"), Lang.readItemLore("COPYING_MODULE"), "COPYING_MODULE");
     public static final SlimefunItemStack CLAY_AIR_LOCK_PLATE = getSlimefunItemStack(Material.STONE_PRESSURE_PLATE, Lang.readItemText("CLAY_AIR_LOCK_PLATE"), Lang.readItemLore("CLAY_AIR_LOCK_PLATE"), "CLAY_AIR_LOCK_PLATE");
@@ -336,47 +336,47 @@ public class ClayTechItems {
             Lang.readItemLore("HONEY_SWEET"), "HONEY_SWEET");
 
     public static @NotNull SlimefunItemStack TNT_EXPLOSION_CREATER = getSlimefunItemStack(new CustomItemStack(Material.TNT, meta -> {
-        meta.getPersistentDataContainer().set(KeyUtil.newKey("durability"), PersistentDataType.INTEGER, 32);
+        meta.getPersistentDataContainer().set(KeyUtil.newKey("UNBREAKING"), PersistentDataType.INTEGER, 32);
     }), Lang.readItemText("TNT_EXPLOSION_CREATER"), Lang.readItemLore("TNT_EXPLOSION_CREATER"), "TNT_EXPLOSION_CREATER");
 
     public static @NotNull SlimefunItemStack ROCKET_2_BLUEPRINT = getSlimefunItemStack(new CustomItemStack(Material.LIGHT_BLUE_DYE),
             Lang.readItemText("ROCKET_2_BLUEPRINT"), Lang.readItemLore("ROCKET_2_BLUEPRINT"), "ROCKET_2_BLUEPRINT");
 
     static {
-        ItemStackUtil.addEnchantment(REINFORCED_ALLOY_PICKAXE, Enchantment.DURABILITY, 9);
-        ItemStackUtil.addEnchantment(REINFORCED_ALLOY_PICKAXE, Enchantment.DIG_SPEED, 9);
-        ItemStackUtil.addEnchantment(CLAY_ALLOY_PICKAXE, Enchantment.DURABILITY, 10);
-        ItemStackUtil.addEnchantment(CLAY_ALLOY_PICKAXE, Enchantment.DIG_SPEED, 10);
-        ItemStackUtil.addEnchantment(CLAY_ALLOY_HELMET, Enchantment.DURABILITY, 10);
-        ItemStackUtil.addEnchantment(CLAY_ALLOY_HELMET, Enchantment.PROTECTION_ENVIRONMENTAL, 10);
+        ItemStackUtil.addEnchantment(REINFORCED_ALLOY_PICKAXE, Enchantment.UNBREAKING, 9);
+        ItemStackUtil.addEnchantment(REINFORCED_ALLOY_PICKAXE, Enchantment.EFFICIENCY, 9);
+        ItemStackUtil.addEnchantment(CLAY_ALLOY_PICKAXE, Enchantment.UNBREAKING, 10);
+        ItemStackUtil.addEnchantment(CLAY_ALLOY_PICKAXE, Enchantment.EFFICIENCY, 10);
+        ItemStackUtil.addEnchantment(CLAY_ALLOY_HELMET, Enchantment.UNBREAKING, 10);
+        ItemStackUtil.addEnchantment(CLAY_ALLOY_HELMET, Enchantment.PROTECTION, 10);
         ItemStackUtil.addEnchantment(CLAY_ALLOY_HELMET, Enchantment.MENDING, 1);
-        ItemStackUtil.addEnchantment(CLAY_ALLOY_CHESTPLATE, Enchantment.DURABILITY, 10);
-        ItemStackUtil.addEnchantment(CLAY_ALLOY_CHESTPLATE, Enchantment.PROTECTION_ENVIRONMENTAL, 10);
+        ItemStackUtil.addEnchantment(CLAY_ALLOY_CHESTPLATE, Enchantment.UNBREAKING, 10);
+        ItemStackUtil.addEnchantment(CLAY_ALLOY_CHESTPLATE, Enchantment.PROTECTION, 10);
         ItemStackUtil.addEnchantment(CLAY_ALLOY_CHESTPLATE, Enchantment.MENDING, 1);
-        ItemStackUtil.addEnchantment(CLAY_ALLOY_LEGGINGS, Enchantment.DURABILITY, 10);
-        ItemStackUtil.addEnchantment(CLAY_ALLOY_LEGGINGS, Enchantment.PROTECTION_ENVIRONMENTAL, 10);
+        ItemStackUtil.addEnchantment(CLAY_ALLOY_LEGGINGS, Enchantment.UNBREAKING, 10);
+        ItemStackUtil.addEnchantment(CLAY_ALLOY_LEGGINGS, Enchantment.PROTECTION, 10);
         ItemStackUtil.addEnchantment(CLAY_ALLOY_LEGGINGS, Enchantment.MENDING, 1);
-        ItemStackUtil.addEnchantment(CLAY_ALLOY_BOOTS, Enchantment.DURABILITY, 10);
-        ItemStackUtil.addEnchantment(CLAY_ALLOY_BOOTS, Enchantment.PROTECTION_ENVIRONMENTAL, 10);
+        ItemStackUtil.addEnchantment(CLAY_ALLOY_BOOTS, Enchantment.UNBREAKING, 10);
+        ItemStackUtil.addEnchantment(CLAY_ALLOY_BOOTS, Enchantment.PROTECTION, 10);
         ItemStackUtil.addEnchantment(CLAY_ALLOY_BOOTS, Enchantment.MENDING, 1);
     }
 
     static {
-        ItemStackUtil.addEnchantment(REINFORCED_ALLOY_PICKAXE, Enchantment.DURABILITY, 9);
-        ItemStackUtil.addEnchantment(REINFORCED_ALLOY_PICKAXE, Enchantment.DIG_SPEED, 9);
-        ItemStackUtil.addEnchantment(CLAY_ALLOY_PICKAXE, Enchantment.DURABILITY, 10);
-        ItemStackUtil.addEnchantment(CLAY_ALLOY_PICKAXE, Enchantment.DIG_SPEED, 10);
-        ItemStackUtil.addEnchantment(CLAY_ALLOY_HELMET, Enchantment.DURABILITY, 10);
-        ItemStackUtil.addEnchantment(CLAY_ALLOY_HELMET, Enchantment.PROTECTION_ENVIRONMENTAL, 10);
+        ItemStackUtil.addEnchantment(REINFORCED_ALLOY_PICKAXE, Enchantment.UNBREAKING, 9);
+        ItemStackUtil.addEnchantment(REINFORCED_ALLOY_PICKAXE, Enchantment.EFFICIENCY, 9);
+        ItemStackUtil.addEnchantment(CLAY_ALLOY_PICKAXE, Enchantment.UNBREAKING, 10);
+        ItemStackUtil.addEnchantment(CLAY_ALLOY_PICKAXE, Enchantment.EFFICIENCY, 10);
+        ItemStackUtil.addEnchantment(CLAY_ALLOY_HELMET, Enchantment.UNBREAKING, 10);
+        ItemStackUtil.addEnchantment(CLAY_ALLOY_HELMET, Enchantment.PROTECTION, 10);
         ItemStackUtil.addEnchantment(CLAY_ALLOY_HELMET, Enchantment.MENDING, 1);
-        ItemStackUtil.addEnchantment(CLAY_ALLOY_CHESTPLATE, Enchantment.DURABILITY, 10);
-        ItemStackUtil.addEnchantment(CLAY_ALLOY_CHESTPLATE, Enchantment.PROTECTION_ENVIRONMENTAL, 10);
+        ItemStackUtil.addEnchantment(CLAY_ALLOY_CHESTPLATE, Enchantment.UNBREAKING, 10);
+        ItemStackUtil.addEnchantment(CLAY_ALLOY_CHESTPLATE, Enchantment.PROTECTION, 10);
         ItemStackUtil.addEnchantment(CLAY_ALLOY_CHESTPLATE, Enchantment.MENDING, 1);
-        ItemStackUtil.addEnchantment(CLAY_ALLOY_LEGGINGS, Enchantment.DURABILITY, 10);
-        ItemStackUtil.addEnchantment(CLAY_ALLOY_LEGGINGS, Enchantment.PROTECTION_ENVIRONMENTAL, 10);
+        ItemStackUtil.addEnchantment(CLAY_ALLOY_LEGGINGS, Enchantment.UNBREAKING, 10);
+        ItemStackUtil.addEnchantment(CLAY_ALLOY_LEGGINGS, Enchantment.PROTECTION, 10);
         ItemStackUtil.addEnchantment(CLAY_ALLOY_LEGGINGS, Enchantment.MENDING, 1);
-        ItemStackUtil.addEnchantment(CLAY_ALLOY_BOOTS, Enchantment.DURABILITY, 10);
-        ItemStackUtil.addEnchantment(CLAY_ALLOY_BOOTS, Enchantment.PROTECTION_ENVIRONMENTAL, 10);
+        ItemStackUtil.addEnchantment(CLAY_ALLOY_BOOTS, Enchantment.UNBREAKING, 10);
+        ItemStackUtil.addEnchantment(CLAY_ALLOY_BOOTS, Enchantment.PROTECTION, 10);
         ItemStackUtil.addEnchantment(CLAY_ALLOY_BOOTS, Enchantment.MENDING, 1);
     }
 
