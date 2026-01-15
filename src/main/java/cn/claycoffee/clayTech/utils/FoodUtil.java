@@ -14,6 +14,7 @@ import org.bukkit.Material;
 import org.bukkit.Sound;
 import org.bukkit.block.Block;
 import org.bukkit.enchantments.Enchantment;
+import org.bukkit.entity.Item;
 import org.bukkit.entity.Player;
 import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.event.player.PlayerFishEvent;
@@ -158,8 +159,13 @@ public class FoodUtil {
         Random r = new Random();
         int random = r.nextInt(100);
         if (random >= from && random <= to) {
-            e.setCancelled(true);
-            e.getPlayer().getWorld().dropItemNaturally(e.getPlayer().getLocation(), drop);
+            //e.setCancelled(true);
+        	if (e.getCaught() instanceof Item) {
+                Item caughtItem = (Item) e.getCaught();
+                
+                caughtItem.setItemStack(drop);
+            }
+            //e.getPlayer().getWorld().dropItemNaturally(e.getPlayer().getLocation(), drop);
         }
     }
 }
