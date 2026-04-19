@@ -1,9 +1,10 @@
 package cn.claycoffee.clayTech.utils;
 
-import cn.claycoffee.clayTech.ClayTech;
 import org.bukkit.NamespacedKey;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.jetbrains.annotations.NotNull;
+
+import cn.claycoffee.clayTech.ClayTech;
 
 public class KeyUtil {
     public static @NotNull NamespacedKey DURABILITY = newKey("durability");

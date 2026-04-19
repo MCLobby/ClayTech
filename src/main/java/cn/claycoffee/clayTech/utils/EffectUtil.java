@@ -1,11 +1,12 @@
 package cn.claycoffee.clayTech.utils;
 
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 import org.jetbrains.annotations.NotNull;
+
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
 
 public class EffectUtil {
     public static void EffectCheck(@NotNull Player d, @NotNull Player e) {

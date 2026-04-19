@@ -1,5 +1,15 @@
 package cn.claycoffee.clayTech;
 
+import java.util.Arrays;
+import java.util.List;
+
+import org.bukkit.Material;
+import org.bukkit.NamespacedKey;
+import org.bukkit.enchantments.Enchantment;
+import org.bukkit.inventory.ItemStack;
+import org.bukkit.persistence.PersistentDataType;
+import org.jetbrains.annotations.NotNull;
+
 import cn.claycoffee.clayTech.utils.ItemStackUtil;
 import cn.claycoffee.clayTech.utils.KeyUtil;
 import cn.claycoffee.clayTech.utils.Lang;
@@ -12,15 +22,6 @@ import io.github.thebusybiscuit.slimefun4.core.attributes.MachineType;
 import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
 import io.github.thebusybiscuit.slimefun4.utils.LoreBuilder;
-import org.bukkit.Material;
-import org.bukkit.NamespacedKey;
-import org.bukkit.enchantments.Enchantment;
-import org.bukkit.inventory.ItemStack;
-import org.bukkit.persistence.PersistentDataType;
-import org.jetbrains.annotations.NotNull;
-
-import java.util.Arrays;
-import java.util.List;
 
 public class ClayTechItems {
     public static final SlimefunItemStack CLAYCOFFEE_HEAD = getSlimefunItemStack(SkullUtil.getByHash("58c55ba01ccc7e79b5495e5c4e00080ff6c92a832b2905fed724f2f68a3bb94c"), Lang.readItemText("CLAYCOFFEE_HEAD"), Lang.readItemLore("CLAYCOFFEE_HEAD"), "CLAYCOFFEE_HEAD");

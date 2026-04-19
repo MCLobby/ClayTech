@@ -1,19 +1,21 @@
 package cn.claycoffee.clayTech;
 
-import cn.claycoffee.clayTech.api.ClayTechBranch;
-import cn.claycoffee.clayTech.utils.FileDownloader;
-import cn.claycoffee.clayTech.utils.Lang;
-import com.google.gson.JsonArray;
-import com.google.gson.JsonParser;
-import org.bukkit.Bukkit;
-import org.bukkit.scheduler.BukkitRunnable;
-
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.URL;
+
+import org.bukkit.Bukkit;
+import org.bukkit.scheduler.BukkitRunnable;
+
+import com.google.gson.JsonArray;
+import com.google.gson.JsonParser;
+
+import cn.claycoffee.clayTech.api.ClayTechBranch;
+import cn.claycoffee.clayTech.utils.FileDownloader;
+import cn.claycoffee.clayTech.utils.Lang;
 
 @Deprecated
 public class ClayTechUpdater {

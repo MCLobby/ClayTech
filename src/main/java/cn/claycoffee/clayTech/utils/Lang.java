@@ -1,9 +1,10 @@
 package cn.claycoffee.clayTech.utils;
 
-import cn.claycoffee.clayTech.ClayTech;
+import java.util.List;
+
 import org.jetbrains.annotations.NotNull;
 
-import java.util.List;
+import cn.claycoffee.clayTech.ClayTech;
 
 public class Lang {
     public static @NotNull String rocketPrefix = readGeneralText("Rocket");

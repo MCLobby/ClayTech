@@ -1,10 +1,8 @@
 package cn.claycoffee.clayTech.core.worlds;
 
-import cn.claycoffee.clayTech.api.objects.Planet;
-import cn.claycoffee.clayTech.core.worlds.decorators.AsteroidBeltCraterPopulator;
-import cn.claycoffee.clayTech.utils.Lang;
-import com.google.common.collect.ImmutableList;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
+import java.util.List;
+import java.util.Random;
+
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.World;
@@ -12,8 +10,12 @@ import org.bukkit.generator.BlockPopulator;
 import org.bukkit.generator.ChunkGenerator;
 import org.jetbrains.annotations.NotNull;
 
-import java.util.List;
-import java.util.Random;
+import com.google.common.collect.ImmutableList;
+
+import cn.claycoffee.clayTech.api.objects.Planet;
+import cn.claycoffee.clayTech.core.worlds.decorators.AsteroidBeltCraterPopulator;
+import cn.claycoffee.clayTech.utils.Lang;
+import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
 
 /**
  * @author Narcissu14

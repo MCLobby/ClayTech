@@ -1,13 +1,14 @@
 package cn.claycoffee.clayTech.implementation.machines;
 
+import org.bukkit.Material;
+import org.bukkit.inventory.ItemStack;
+import org.jetbrains.annotations.NotNull;
+
 import cn.claycoffee.clayTech.api.slimefun.ANewContainer;
 import cn.claycoffee.clayTech.utils.Lang;
 import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import org.bukkit.Material;
-import org.bukkit.inventory.ItemStack;
-import org.jetbrains.annotations.NotNull;
 
 public class ElectricStoneCrusher extends ANewContainer {
 

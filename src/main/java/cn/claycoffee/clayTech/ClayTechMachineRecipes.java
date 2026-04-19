@@ -1,11 +1,12 @@
 package cn.claycoffee.clayTech;
 
-import cn.claycoffee.clayTech.api.objects.enums.ArmorType;
-import cn.claycoffee.clayTech.utils.SlimefunUtil;
-import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 import org.jetbrains.annotations.NotNull;
+
+import cn.claycoffee.clayTech.api.objects.enums.ArmorType;
+import cn.claycoffee.clayTech.utils.SlimefunUtil;
+import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
 
 public class ClayTechMachineRecipes {
     public static final ItemStack[] BLIND_CORE = {

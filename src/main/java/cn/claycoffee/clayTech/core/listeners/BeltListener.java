@@ -1,7 +1,7 @@
 package cn.claycoffee.clayTech.core.listeners;
 
-import cn.claycoffee.clayTech.ClayTech;
-import cn.claycoffee.clayTech.api.ClayTechManager;
+import java.util.Random;
+
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.World;
@@ -16,7 +16,8 @@ import org.bukkit.scheduler.BukkitRunnable;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
-import java.util.Random;
+import cn.claycoffee.clayTech.ClayTech;
+import cn.claycoffee.clayTech.api.ClayTechManager;
 
 public class BeltListener implements Listener {
     public static int getHighestBlockAt(@NotNull World w, int x, int z) {

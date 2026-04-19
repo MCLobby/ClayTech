@@ -1,5 +1,12 @@
 package cn.claycoffee.clayTech.utils;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+import org.bukkit.inventory.ItemStack;
+import org.jetbrains.annotations.NotNull;
+
 import cn.claycoffee.clayTech.ClayTech;
 import cn.claycoffee.clayTech.api.objects.NotPlaceableItem;
 import cn.claycoffee.clayTech.api.objects.enums.ArmorType;
@@ -11,12 +18,6 @@ import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun4.api.researches.Research;
 import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
-import org.bukkit.inventory.ItemStack;
-import org.jetbrains.annotations.NotNull;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 public class SlimefunUtil {
     public static int id = 950530;

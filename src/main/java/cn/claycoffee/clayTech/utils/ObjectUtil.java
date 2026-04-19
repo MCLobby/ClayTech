@@ -1,8 +1,8 @@
 package cn.claycoffee.clayTech.utils;
 
-import org.jetbrains.annotations.NotNull;
-
 import java.util.List;
+
+import org.jetbrains.annotations.NotNull;
 
 public class ObjectUtil {
     public static boolean ExistsInList(int a, int @NotNull [] b) {

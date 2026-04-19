@@ -1,7 +1,5 @@
 package cn.claycoffee.clayTech.core.listeners;
 
-import cn.claycoffee.clayTech.ClayTechItems;
-import cn.claycoffee.clayTech.utils.FoodUtil;
 import org.bukkit.GameMode;
 import org.bukkit.Material;
 import org.bukkit.event.EventHandler;
@@ -12,6 +10,9 @@ import org.bukkit.event.player.PlayerFishEvent;
 import org.bukkit.event.player.PlayerFishEvent.State;
 import org.bukkit.inventory.ItemStack;
 import org.jetbrains.annotations.NotNull;
+
+import cn.claycoffee.clayTech.ClayTechItems;
+import cn.claycoffee.clayTech.utils.FoodUtil;
 
 public class FoodDropListener implements Listener {
     @EventHandler(priority = EventPriority.HIGHEST)

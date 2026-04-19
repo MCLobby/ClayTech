@@ -1,10 +1,11 @@
 package cn.claycoffee.clayTech.implementation.items;
 
+import org.bukkit.inventory.ItemStack;
+
 import cn.claycoffee.clayTech.ClayTechItems;
 import cn.claycoffee.clayTech.ClayTechRecipeType;
 import cn.claycoffee.clayTech.utils.Lang;
 import cn.claycoffee.clayTech.utils.SlimefunUtil;
-import org.bukkit.inventory.ItemStack;
 
 public class Drinks {
     public Drinks() {

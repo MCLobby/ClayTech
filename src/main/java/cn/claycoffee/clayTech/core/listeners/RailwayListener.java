@@ -1,9 +1,5 @@
 package cn.claycoffee.clayTech.core.listeners;
 
-import cn.claycoffee.clayTech.ClayTech;
-import cn.claycoffee.clayTech.ClayTechItems;
-import com.xzavier0722.mc.plugin.slimefun4.storage.util.StorageCacheUtils;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.entity.Minecart;
@@ -11,6 +7,12 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.vehicle.VehicleMoveEvent;
 import org.jetbrains.annotations.NotNull;
+
+import com.xzavier0722.mc.plugin.slimefun4.storage.util.StorageCacheUtils;
+
+import cn.claycoffee.clayTech.ClayTech;
+import cn.claycoffee.clayTech.ClayTechItems;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
 
 public class RailwayListener implements Listener {
     @EventHandler(ignoreCancelled = true)

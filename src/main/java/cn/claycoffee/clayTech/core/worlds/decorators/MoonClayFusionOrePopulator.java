@@ -1,9 +1,9 @@
 package cn.claycoffee.clayTech.core.worlds.decorators;
 
-import cn.claycoffee.clayTech.ClayTech;
-import cn.claycoffee.clayTech.ClayTechItems;
-import com.xzavier0722.mc.plugin.slimefun4.storage.util.StorageCacheUtils;
-import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
+import java.util.Random;
+
+import javax.annotation.Nonnull;
+
 import org.bukkit.Chunk;
 import org.bukkit.Material;
 import org.bukkit.World;
@@ -11,8 +11,11 @@ import org.bukkit.block.Block;
 import org.bukkit.generator.BlockPopulator;
 import org.bukkit.scheduler.BukkitRunnable;
 
-import javax.annotation.Nonnull;
-import java.util.Random;
+import com.xzavier0722.mc.plugin.slimefun4.storage.util.StorageCacheUtils;
+
+import cn.claycoffee.clayTech.ClayTech;
+import cn.claycoffee.clayTech.ClayTechItems;
+import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
 
 public class MoonClayFusionOrePopulator extends BlockPopulator {
 

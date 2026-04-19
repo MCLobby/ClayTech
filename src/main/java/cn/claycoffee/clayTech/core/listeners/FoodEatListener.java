@@ -1,7 +1,5 @@
 package cn.claycoffee.clayTech.core.listeners;
 
-import cn.claycoffee.clayTech.ClayTechItems;
-import cn.claycoffee.clayTech.utils.FoodUtil;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
@@ -11,6 +9,9 @@ import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 import org.jetbrains.annotations.NotNull;
+
+import cn.claycoffee.clayTech.ClayTechItems;
+import cn.claycoffee.clayTech.utils.FoodUtil;
 
 public class FoodEatListener implements Listener {
     @SuppressWarnings("deprecation")

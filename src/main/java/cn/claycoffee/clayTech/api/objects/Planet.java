@@ -1,7 +1,10 @@
 package cn.claycoffee.clayTech.api.objects;
 
-import cn.claycoffee.clayTech.ClayTech;
-import cn.claycoffee.clayTech.core.managers.ConfigManager;
+import java.io.IOException;
+import java.util.HashSet;
+import java.util.Random;
+import java.util.Set;
+
 import org.bukkit.Bukkit;
 import org.bukkit.GameRule;
 import org.bukkit.Location;
@@ -12,17 +15,13 @@ import org.bukkit.WorldCreator;
 import org.bukkit.WorldType;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Player;
-import org.bukkit.generator.BlockPopulator;
 import org.bukkit.generator.ChunkGenerator;
 import org.bukkit.inventory.ItemStack;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
-import java.io.IOException;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Random;
-import java.util.Set;
+import cn.claycoffee.clayTech.ClayTech;
+import cn.claycoffee.clayTech.core.managers.ConfigManager;
 
 /**
  * Planet. 星球.

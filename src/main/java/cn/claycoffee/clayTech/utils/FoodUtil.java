@@ -1,14 +1,9 @@
 package cn.claycoffee.clayTech.utils;
 
-import cn.claycoffee.clayTech.ClayTechItems;
-import cn.claycoffee.clayTech.api.events.PlayerDrinkEvent;
-import cn.claycoffee.clayTech.api.events.PlayerEatEvent;
-import cn.claycoffee.clayTech.api.events.PlayerWashEvent;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.player.PlayerProfile;
-import io.github.thebusybiscuit.slimefun4.api.researches.Research;
-import io.github.thebusybiscuit.slimefun4.utils.SlimefunUtils;
+import java.util.Optional;
+import java.util.Random;
+import java.util.Set;
+
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.Sound;
@@ -23,9 +18,15 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.potion.PotionEffect;
 import org.jetbrains.annotations.NotNull;
 
-import java.util.Optional;
-import java.util.Random;
-import java.util.Set;
+import cn.claycoffee.clayTech.ClayTechItems;
+import cn.claycoffee.clayTech.api.events.PlayerDrinkEvent;
+import cn.claycoffee.clayTech.api.events.PlayerEatEvent;
+import cn.claycoffee.clayTech.api.events.PlayerWashEvent;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun4.api.player.PlayerProfile;
+import io.github.thebusybiscuit.slimefun4.api.researches.Research;
+import io.github.thebusybiscuit.slimefun4.utils.SlimefunUtils;
 
 public class FoodUtil {
     public static void drink(@NotNull Player p, @NotNull ItemStack handingItem, ItemStack food, int incraseFoodLevel,

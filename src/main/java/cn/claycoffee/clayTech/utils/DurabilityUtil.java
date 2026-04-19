@@ -1,7 +1,7 @@
 package cn.claycoffee.clayTech.utils;
 
-import cn.claycoffee.clayTech.ClayTechItems;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
+import java.util.List;
+
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
@@ -9,7 +9,8 @@ import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.persistence.PersistentDataType;
 import org.jetbrains.annotations.Nullable;
 
-import java.util.List;
+import cn.claycoffee.clayTech.ClayTechItems;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 
 public class DurabilityUtil {
     public static int getDurability(@Nullable ItemStack itemStack) {

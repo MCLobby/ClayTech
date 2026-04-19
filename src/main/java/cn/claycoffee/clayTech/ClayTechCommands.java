@@ -1,15 +1,16 @@
 package cn.claycoffee.clayTech;
 
-import cn.claycoffee.clayTech.utils.Lang;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.command.TabExecutor;
 import org.jetbrains.annotations.NotNull;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.stream.Collectors;
+import cn.claycoffee.clayTech.utils.Lang;
 
 public class ClayTechCommands implements TabExecutor {
     String @NotNull [] subCommands = {"checkupdate"};

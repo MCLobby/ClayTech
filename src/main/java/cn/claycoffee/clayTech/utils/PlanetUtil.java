@@ -1,11 +1,10 @@
 package cn.claycoffee.clayTech.utils;
 
-import cn.claycoffee.clayTech.ClayTech;
-import cn.claycoffee.clayTech.ClayTechBiomes;
-import cn.claycoffee.clayTech.api.objects.Planet;
-import com.wimbli.WorldBorder.BorderData;
-import com.wimbli.WorldBorder.Config;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Random;
+
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.World;
@@ -14,10 +13,13 @@ import org.bukkit.inventory.ItemStack;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Random;
+import com.wimbli.WorldBorder.BorderData;
+import com.wimbli.WorldBorder.Config;
+
+import cn.claycoffee.clayTech.ClayTech;
+import cn.claycoffee.clayTech.ClayTechBiomes;
+import cn.claycoffee.clayTech.api.objects.Planet;
+import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
 
 public class PlanetUtil {
     private static final int[] planet = {19, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 32, 33, 34, 37, 38, 39, 40, 41,

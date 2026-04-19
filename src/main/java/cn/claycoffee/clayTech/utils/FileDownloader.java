@@ -1,10 +1,5 @@
 package cn.claycoffee.clayTech.utils;
 
-import cn.claycoffee.clayTech.ClayTech;
-import cn.claycoffee.clayTech.ClayTechData;
-import com.google.gson.JsonArray;
-import org.jetbrains.annotations.NotNull;
-
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;
@@ -12,6 +7,13 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
+
+import org.jetbrains.annotations.NotNull;
+
+import com.google.gson.JsonArray;
+
+import cn.claycoffee.clayTech.ClayTech;
+import cn.claycoffee.clayTech.ClayTechData;
 
 @Deprecated
 public class FileDownloader {

@@ -1,12 +1,13 @@
 package cn.claycoffee.clayTech.utils;
 
-import cn.claycoffee.clayTech.ClayTech;
+import java.util.logging.Level;
+
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.jetbrains.annotations.Nullable;
 
-import java.util.logging.Level;
+import cn.claycoffee.clayTech.ClayTech;
 
 @SuppressWarnings({"unused", "deprecation"})
 public class Logger {
